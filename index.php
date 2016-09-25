@@ -326,8 +326,18 @@
       <br>
       <?php
         include('db_connect.php');
-
         db_connect();
+        $sql = "SELECT * FROM wines;";
+        $results = mysqli_query($db, $sql) OR die(myseqli_error($db));
+
+        while($row = mysqli_fetch_array($results)){
+          echo $row['name'] . '<br>';
+        }
+
+
+        mysqli_close($db);
+
+
       ?>
       <p>De-stemming and crushing, followed by maceration on the skins for several hours prior to squeezing in horizontal presses. Off-skins fermentation for 20 days at a controlled temperature of approximately 16° C. The formation of a light mousse in pressure tanks with the addition of selected yeasts to reach an excess pressure of 1.5 Atm is followed by stabilization and refrigeration at -4° C. Before bottling, the wine undergoes microfiltration, and it is then left to refine in the bottle for several weeks.</p>
     </div>
