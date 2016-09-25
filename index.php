@@ -330,7 +330,7 @@
       <span style="display: block;"><b>Aging:</b> Aged in bottle for several weeks.</span>
       <span style="display: block;"><b>Varietal Composition:</b> 100% Moscato Bianco Di Canelli</span>
       <span style="display: block;"><b>Type:</b> Sparkling Sweet White Wine</span>
-      <br>          
+      <br>';          
 
 
 
