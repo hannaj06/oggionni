@@ -325,8 +325,8 @@
       <div class="col-md-8">
         <span style="font-weight: bold; display: block; font-size: 18px; color: black;">'. $row['name'] . ' - '. $row['vintage'] . '</span>' . 
         '<span style="display: block;"><b>Winery: </b>' . $row['vineyard'] . '</span>' .
-        '<span style="display: block;><b>Production Area: </b>' . $row['production_area'] . ', ' . $row['country'] . '</span>' .
-        '<span style="display: block;><b>Appellation: </b>' . $row['appellation'] . '</span>' . 
+        '<span style="display: block;"><b>Production Area: </b>' . $row['production_area'] . ', ' . $row['country'] . '</span>' .
+        '<span style="display: block;"><b>Appellation: </b>' . $row['appellation'] . '</span>' . 
         '<span style="display: block;"><b>Aging: </b>' . $row['aging'] .'</span>' . 
         '<span style="display: block;"><b>Varietal Composition: </b>' . $row['varietal_composition'] . '</span>' . 
         '<span style="display: block;"><b>Type: </b>' . $row['type'] . '</span>' .
@@ -364,7 +364,7 @@
         <table class="table table-bordered">
                 <tr>
                   <td>
-                    <p><span class="glyphicon glyphicon-map-marker"></span>259 Main Street Suite 204<br> East Aurora, NY 14021</p>
+                    <p><span class="glyphicon glyphicon-map-marker"></span>259 Main Street Suite 204, East Aurora, NY 14021</p>
                     <p><span class="glyphicon glyphicon-phone"></span>Phone: +1-716-796-3827</p>
             <p><span class="glyphicon glyphicon-envelope"></span>Email: info@oggionniwines.com</p>
           </td>
@@ -376,7 +376,7 @@
     <div class="col-md-6">
 	<table class="table table-bordered">
           <td>
-            <p><span class="glyphicon glyphicon-map-marker"></span>108 8th Avenue <br> New York, NY 10011</p>
+            <p><span class="glyphicon glyphicon-map-marker"></span>108 8th Avenue, New York, NY 10011</p>
             <p><span class="glyphicon glyphicon-phone"></span>Phone: +1-716-799-5695</p>
             <p><span class="glyphicon glyphicon-envelope"></span>Email: info@oggionniwines.com</p>
           </td>
