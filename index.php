@@ -28,7 +28,7 @@
       color: #111;
   }
   .container {
-      padding: 80px 120px;
+      padding: 80px 40px;
   }
   .person {
       border: 10px solid transparent;
@@ -178,7 +178,7 @@
         <li><a href="#myPage">HOME</a></li>
         <li><a href="#about">ABOUT US</a></li>
         <li><a href="#producers">PRODUCERS</a></li>
-        <!-- <li><a href="#dist">DISTRIBUTORS</a></li> -->
+        <li><a href="#dist">DISTRIBUTORS</a></li>
         <li><a href="#contact">CONTACT</a></li>
 <!--         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
@@ -250,6 +250,7 @@
 
 
 <div id="about" class="container text-center">
+
   <h3>ABOUT US</h3>
   <p>Emmett and Owen’s roots bring them back to Buffalo, New York where the Oggionni family has lived for generations. The Oggionni name was ultimately established outside of Milano until John Oggionni immigrated to Buffalo in 1929. John’s arrival to the United States led to two generations of proud Italian-Americans. These men and women are the same individuals who raised Emmett and Owen to found their wine import and distribution business. Now with a well-groomed portfolio the two men are eager to show the world new gems that have yet to be found. As time has progressed the two founders have taken on various roles at Oggionni Wines. Owen has been the force behind the company’s selections, working aggressively to cater to wines that are truly believed in. This involves everything from sample selections, tastings with industry professionals, and rating coordination. Emmett has been the company’s liaison, working with producers, lawyers, and distributors. Both Emmett and Owen work tirelessly to create a well-run company that presents a well-curated portfolio day-in and day-out. By working together, as a family and a team, Emmett and Owen cover the whole State of New York with ease. The duo works tirelessly to bring their products to market, taking great effort to present themselves and their wineries as first-class products.</p>
 
@@ -268,15 +269,6 @@
   <br>
 </div>
 
-<div id="dist" class="bg-1">
-  <div class="container">
-    <h3 class="text-center">DISTRIBUTORS</h3>
-    <p class="text-center">Coming soon!</p>
-    
-    <div class="row text-center">
-
-    </div>
-  </div>
   
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
@@ -314,6 +306,11 @@
   </div>
 </div>
 
+<div class="container text-center">
+	<hr>
+</div>
+
+
 <div id="producers" class="container text-left">
   <h3>PRODUCERS</h3>
       <?php
@@ -345,42 +342,50 @@
       ?>
 </div>
 
-<hr>
+<div id="dist" class="bg-1">
+  <div class="container">
+    <h3 class="text-center">DISTRIBUTORS</h3>
+    <p class="text-center">Coming soon!</p>
 
-<!-- Container (Contact Section) -->
-<div id="contact" class="container">
-  <h3 class="text-center">Contact</h3>
-
-  <div class="row">
-    <div class="col-md-12">
-    	<table class="table table-bordered">
-    		<tr>
-    		  <td>
-    		    <p><span class="glyphicon glyphicon-map-marker"></span>259 Main Street Suite 204<br> East Aurora, NY 14021</p>
-    		    <p><span class="glyphicon glyphicon-phone"></span>Phone: +1-716-796-3827</p>
-            <p><span class="glyphicon glyphicon-envelope"></span>Email: info@oggionniwines.com</p>
-          </td>
-    		  
-          <td>   
-            <p><span class="glyphicon glyphicon-map-marker"></span>108 8th Avenue <br> New York, NY 10011</p>
-            <p><span class="glyphicon glyphicon-phone"></span>Phone: +1-716-799-5695</p>
-            <p><span class="glyphicon glyphicon-envelope"></span>Email: info@oggionniwines.com</p>      
-          </td>
-        </tr>
-      </table>
+    <div class="row text-center">
 
     </div>
   </div>
 </div>
 
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container bg-0">
+  <h3 class="text-center">Contact</h3>
+
 <div class="row">
     <div class="col-md-6">
+        <table class="table table-bordered">
+                <tr>
+                  <td>
+                    <p><span class="glyphicon glyphicon-map-marker"></span>259 Main Street Suite 204<br> East Aurora, NY 14021</p>
+                    <p><span class="glyphicon glyphicon-phone"></span>Phone: +1-716-796-3827</p>
+            <p><span class="glyphicon glyphicon-envelope"></span>Email: info@oggionniwines.com</p>
+          </td>
+	</table>
+
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2919.5198425440135!2d-78.660863!3d42.967322!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d375861ce9c67d%3A0xf4db2dbd1f05eabe!2s8860+Main+St+%23201a%2C+Williamsville%2C+NY+14221!5e0!3m2!1sen!2sus!4v1474427205816" width="100%" height="450" frameborder="0" style="border:2px solid black; padding: 4px" allowfullscreen></iframe>
     </div>
 
     <div class="col-md-6">
+	<table class="table table-bordered">
+          <td>
+            <p><span class="glyphicon glyphicon-map-marker"></span>108 8th Avenue <br> New York, NY 10011</p>
+            <p><span class="glyphicon glyphicon-phone"></span>Phone: +1-716-799-5695</p>
+            <p><span class="glyphicon glyphicon-envelope"></span>Email: info@oggionniwines.com</p>
+          </td>
+        </tr>
+      </table>
+
+
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.972484121071!2d-74.00378858459423!3d40.74063097932878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259be890f9285%3A0x6d0a64eef7acac66!2sOggionni+Wines!5e0!3m2!1sen!2sus!4v1474744651630" width="100%" height="450" frameborder="0" style="border: 2px solid black; padding: 4px" allowfullscreen></iframe>
     </div>
+</div>
 </div>
 
 <!-- Footer -->
