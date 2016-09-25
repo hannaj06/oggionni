@@ -338,7 +338,7 @@
         '<span style="display: block;"><b>Method of Production: </b>' . $row['method_of_production'] . '</span>';	
 
 		echo '</div>
-  			</div><div style="height: 25px;"></div>';
+  			</div><div style="height: 100px;"></div>';
 	}
 
         mysqli_close($db);
