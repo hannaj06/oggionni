@@ -322,16 +322,17 @@
         while($row = mysqli_fetch_array($results)){
 		echo '
 		<div class="row">
-                	<div class="col-md-8">
-                  		<span style="font-weight: bold; display: block; font-size: 18px; color: black;">'. $row['name'] . ' - '. $row['vintage'] . '</span>';
-		echo '<span style="display: block;"><b>Winery: </b>' . $row['vineyard'] . ', ' . $row['production_area'] . ' ' . $row['country'] . '</span>';
-		
-		echo  '<span style="display: block;"><b>Aging: </b>' . $row['aging'] .'</span>' . 
-		      '<span style="display: block;"><b>Varietal Composition: </b>' . $row['varietal_composition'] . '</span>' . 
-		      '<span style="display: block;"><b>Type: </b>' . $row['type'] . '</span>' .
-			'<div style="height: 15px;"></div>' . 
-			'<span style="display: block;"><b>Method of Production: </b>' . $row['method_of_production'] . '</span>';	
-		
+      <div class="col-md-8">
+        <span style="font-weight: bold; display: block; font-size: 18px; color: black;">'. $row['name'] . ' - '. $row['vintage'] . '</span>' . 
+        '<span style="display: block;"><b>Winery: </b>' . $row['vineyard'] .
+        '<span style="display: block;><b>Production Area: </b>' . $row['production_area'] . ', ' . $row['country'] . '</span>' .
+        '<span style="display: block;><b>Appellation: </b>' . $row['appellation'] . '</span>' . 
+        '<span style="display: block;"><b>Aging: </b>' . $row['aging'] .'</span>' . 
+        '<span style="display: block;"><b>Varietal Composition: </b>' . $row['varietal_composition'] . '</span>' . 
+        '<span style="display: block;"><b>Type: </b>' . $row['type'] . '</span>' .
+        '<div style="height: 15px;"></div>' . 
+        '<span style="display: block;"><b>Method of Production: </b>' . $row['method_of_production'] . '</span>';	
+
 		echo '</div>
   			</div><div style="height: 25px;"></div>';
 	}
