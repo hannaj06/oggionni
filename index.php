@@ -322,6 +322,9 @@
         while($row = mysqli_fetch_array($results)){
 		echo '
 		<div class="row">
+      <div class="col-md-4">' . 
+        $row['image'] . 
+      '</div>
       <div class="col-md-8">
         <span style="font-weight: bold; display: block; font-size: 18px; color: black;">'. $row['name'] . ' - '. $row['vintage'] . '</span>' . 
         '<span style="display: block;"><b>Winery: </b>' . $row['vineyard'] . '</span>' .
