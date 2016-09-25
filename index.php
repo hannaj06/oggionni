@@ -325,18 +325,18 @@
         while($row = mysqli_fetch_array($results)){
 		echo '
 		<div class="row">
-                	<div class="col-md-6">
+                	<div class="col-md-8">
                   		<span style="font-weight: bold; display: block; font-size: 18px; color: black;">'. $row['name'] . ' - '. $row['vintage'] . '</span>';
 		echo '<span style="display: block;"><b>Winery: </b>' . $row['vineyard'] . ', ' . $row['production_area'] . ' ' . $row['country'] . '</span>';
 		
 		echo  '<span style="display: block;"><b>Aging: </b>' . $row['aging'] .'</span>' . 
 		      '<span style="display: block;"><b>Varietal Composition: </b>' . $row['varietal_composition'] . '</span>' . 
 		      '<span style="display: block;"><b>Type: </b>' . $row['type'] . '</span>' .
-			'<div style="height: 10px;"></div>' . 
+			'<div style="height: 15px;"></div>' . 
 			'<span style="display: block;"><b>Method of Production: </b>' . $row['method_of_production'] . '</span>';	
 		
 		echo '</div>
-  			</div><div style="height: 15px;"></div>';
+  			</div><div style="height: 25px;"></div>';
 	}
 
         mysqli_close($db);
@@ -345,38 +345,28 @@
       ?>
 </div>
 
+<hr>
 
 <!-- Container (Contact Section) -->
 <div id="contact" class="container">
   <h3 class="text-center">Contact</h3>
-  <p class="text-center"></p>
 
   <div class="row">
-    <div class="col-md-4">
-      <p><span class="glyphicon glyphicon-map-marker"></span>259 Main Street Suite 204, East Aurora, NY 14021</p>
-      <p><span class="glyphicon glyphicon-phone"></span>Phone: +1-716-796-3827</p>
-      <p><span class="glyphicon glyphicon-envelope"></span>Email: info@oggionniwines.com</p>
-      <hr>
-      <p><span class="glyphicon glyphicon-map-marker"></span>108 8th Avenue, New York, NY 10011</p>
+    <div class="col-md-12">
+	<table class="table table-bordered">
+		<tr>
+		  <td>
+		    <p><span class="glyphicon glyphicon-map-marker"></span>259 Main Street Suite 204<br> East Aurora, NY 14021</p>
+		  </td>
+		  
+                  <td>
+      		    <p><span class="glyphicon glyphicon-phone"></span>Phone: +1-716-796-3827</p>
+      
+<p><span class="glyphicon glyphicon-envelope"></span>Email: info@oggionniwines.com</p>
+    
+      <p><span class="glyphicon glyphicon-map-marker"></span>108 8th Avenue <br> New York, NY 10011</p>
       <p><span class="glyphicon glyphicon-phone"></span>Phone: +1-716-799-5695</p>
       <p><span class="glyphicon glyphicon-envelope"></span>Email: info@oggionniwines.com</p>      
-    </div>
-    <div class="col-md-8">
-      <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-        </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-        </div>
-      </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-      <br>
-      <div class="row">
-        <div class="col-md-12 form-group">
-          <button class="btn pull-right" type="submit">Send</button>
-        </div>
-      </div>
     </div>
   </div>
 </div>
