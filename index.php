@@ -323,31 +323,27 @@
         $results = mysqli_query($db, $sql) OR die(myseqli_error($db));
 
         while($row = mysqli_fetch_array($results)){
-        echo '<div class="row">
-                <div class="col-md-6">
-                  <span style="font-weight: bold; display: block; font-size: 18px; color: black;">' . $row['name'] . ' - ' . $row['vintage']'</span>
-      <span style="display: block;"><b>Winery:</b> Cascina Fonda, Asti Italy</span>
-      <span style="display: block;"><b>Aging:</b> Aged in bottle for several weeks.</span>
-      <span style="display: block;"><b>Varietal Composition:</b> 100% Moscato Bianco Di Canelli</span>
-      <span style="display: block;"><b>Type:</b> Sparkling Sweet White Wine</span>
-      <br>';          
-
-
-
-
-
-
-        }
-
+		echo '
+		<div class="row">
+                	<div class="col-md-6">
+                  		<span style="font-weight: bold; display: block; font-size: 18px; color: black;">'. $row['name'] . ' - '. $row['vintage'] . '</span>';
+		echo '<span style="display: block;"><b>Winery: </b>' . $row['vineyard'] . ', ' . $row['production_area'] . ' ' . $row['country'] . '</span>';
+		
+		echo  '<span style="display: block;"><b>Aging: </b>' . $row['aging'] .'</span>' . 
+		      '<span style="display: block;"><b>Varietal Composition: </b>' . $row['varietal_composition'] . '</span>' . 
+		      '<span style="display: block;"><b>Type: </b>' . $row['type'] . '</span>' .
+			'<div style="height: 10px;"></div>' . 
+			'<span style="display: block;"><b>Method of Production: </b>' . $row['method_of_production'] . '</span>';	
+		
+		echo '</div>
+  			</div><div style="height: 15px;"></div>';
+	}
 
         mysqli_close($db);
 
 
       ?>
-    </div>
-  </div>
 </div>
-
 
 
 <!-- Container (Contact Section) -->
