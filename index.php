@@ -353,20 +353,22 @@
 
   <div class="row">
     <div class="col-md-12">
-	<table class="table table-bordered">
-		<tr>
-		  <td>
-		    <p><span class="glyphicon glyphicon-map-marker"></span>259 Main Street Suite 204<br> East Aurora, NY 14021</p>
-		  </td>
-		  
-                  <td>
-      		    <p><span class="glyphicon glyphicon-phone"></span>Phone: +1-716-796-3827</p>
-      
-<p><span class="glyphicon glyphicon-envelope"></span>Email: info@oggionniwines.com</p>
-    
-      <p><span class="glyphicon glyphicon-map-marker"></span>108 8th Avenue <br> New York, NY 10011</p>
-      <p><span class="glyphicon glyphicon-phone"></span>Phone: +1-716-799-5695</p>
-      <p><span class="glyphicon glyphicon-envelope"></span>Email: info@oggionniwines.com</p>      
+    	<table class="table table-bordered">
+    		<tr>
+    		  <td>
+    		    <p><span class="glyphicon glyphicon-map-marker"></span>259 Main Street Suite 204<br> East Aurora, NY 14021</p>
+    		    <p><span class="glyphicon glyphicon-phone"></span>Phone: +1-716-796-3827</p>
+            <p><span class="glyphicon glyphicon-envelope"></span>Email: info@oggionniwines.com</p>
+          </td>
+    		  
+          <td>   
+            <p><span class="glyphicon glyphicon-map-marker"></span>108 8th Avenue <br> New York, NY 10011</p>
+            <p><span class="glyphicon glyphicon-phone"></span>Phone: +1-716-799-5695</p>
+            <p><span class="glyphicon glyphicon-envelope"></span>Email: info@oggionniwines.com</p>      
+          </td>
+        </tr>
+      </table>
+
     </div>
   </div>
 </div>
