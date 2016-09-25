@@ -324,7 +324,7 @@
 		<div class="row">
       <div class="col-md-8">
         <span style="font-weight: bold; display: block; font-size: 18px; color: black;">'. $row['name'] . ' - '. $row['vintage'] . '</span>' . 
-        '<span style="display: block;"><b>Winery: </b>' . $row['vineyard'] .
+        '<span style="display: block;"><b>Winery: </b>' . $row['vineyard'] . '</span>' .
         '<span style="display: block;><b>Production Area: </b>' . $row['production_area'] . ', ' . $row['country'] . '</span>' .
         '<span style="display: block;><b>Appellation: </b>' . $row['appellation'] . '</span>' . 
         '<span style="display: block;"><b>Aging: </b>' . $row['aging'] .'</span>' . 
