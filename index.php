@@ -177,7 +177,8 @@
       <ul class="nav navbar-nav navbar-left">
         <li><a href="#myPage">HOME</a></li>
         <li><a href="#about">ABOUT US</a></li>
-        <li><a href="#dist">DISTRIBUTORS</a></li>
+        <li><a href="#producers">PRODUCERS</a></li>
+        <!-- <li><a href="#dist">DISTRIBUTORS</a></li> -->
         <li><a href="#contact">CONTACT</a></li>
 <!--         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
@@ -244,17 +245,10 @@
     </div>
 
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <!-- <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> -->
-      <!-- <span class="sr-only">Previous</span> -->
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <!-- <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> -->
-      <!-- <span class="sr-only">Next</span> -->
-    </a>
+
 </div>
 
-<!-- Container (The Band Section) -->
+
 <div id="about" class="container text-center">
   <h3>ABOUT US</h3>
   <p>Emmett and Owen’s roots bring them back to Buffalo, New York where the Oggionni family has lived for generations. The Oggionni name was ultimately established outside of Milano until John Oggionni immigrated to Buffalo in 1929. John’s arrival to the United States led to two generations of proud Italian-Americans. These men and women are the same individuals who raised Emmett and Owen to found their wine import and distribution business. Now with a well-groomed portfolio the two men are eager to show the world new gems that have yet to be found. As time has progressed the two founders have taken on various roles at Oggionni Wines. Owen has been the force behind the company’s selections, working aggressively to cater to wines that are truly believed in. This involves everything from sample selections, tastings with industry professionals, and rating coordination. Emmett has been the company’s liaison, working with producers, lawyers, and distributors. Both Emmett and Owen work tirelessly to create a well-run company that presents a well-curated portfolio day-in and day-out. By working together, as a family and a team, Emmett and Owen cover the whole State of New York with ease. The duo works tirelessly to bring their products to market, taking great effort to present themselves and their wineries as first-class products.</p>
@@ -274,7 +268,6 @@
   <br>
 </div>
 
-<!-- Container (TOUR Section) -->
 <div id="dist" class="bg-1">
   <div class="container">
     <h3 class="text-center">DISTRIBUTORS</h3>
@@ -320,6 +313,13 @@
     </div>
   </div>
 </div>
+
+<div id="producers" class="container text-center">
+  <h3>PRODUCERS</h3>
+  <p></p>
+</div>
+
+
 
 <!-- Container (Contact Section) -->
 <div id="contact" class="container">
