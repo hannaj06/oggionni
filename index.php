@@ -329,7 +329,8 @@
         '<span style="display: block;"><b>Appellation: </b>' . $row['appellation'] . '</span>' . 
         '<span style="display: block;"><b>Aging: </b>' . $row['aging'] .'</span>' . 
         '<span style="display: block;"><b>Varietal Composition: </b>' . $row['varietal_composition'] . '</span>' . 
-        '<span style="display: block;"><b>Type: </b>' . $row['type'] . '</span>' .
+        '<span style="display: block;"><b>Type: </b>' . $row['type'] . '</span>' . 
+        '<span style="display: block;"><b>Spec Sheet: </b>' . $row['spec_sheet'] . '</span>' . 
         '<div style="height: 15px;"></div>' . 
         '<span style="display: block;"><b>Method of Production: </b>' . $row['method_of_production'] . '</span>';	
 
