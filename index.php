@@ -312,7 +312,7 @@
 
 
 <div id="producers" class="container text-left">
-  <h3>PRODUCERS</h3>
+  <h3 class="text-center">PRODUCERS</h3>
       <?php
         include('db_connect.php');
         db_connect();
@@ -328,8 +328,8 @@
       <div class="col-md-8">
         <span style="font-weight: bold; display: block; font-size: 18px; color: black;">'. $row['name'] . ' - '. $row['vintage'] . '</span>' . 
         '<span style="display: block;"><b>Winery: </b>' . $row['vineyard'] . '</span>' .
-        '<span style="display: block;"><b>Production Area: </b>' . $row['production_area'] . ', ' . $row['country'] . '</span>' .
-        '<span style="display: block;"><b>Appellation: </b>' . $row['appellation'] . '</span>' . 
+        '<span style="display: block;"><b>Appellation: </b>' . $row['appellation'] . '</span>' .
+	'<span style="display: block;"><b>Production Area: </b>' . $row['production_area'] . ', ' . $row['country'] . '</span>' .
         '<span style="display: block;"><b>Aging: </b>' . $row['aging'] .'</span>' . 
         '<span style="display: block;"><b>Varietal Composition: </b>' . $row['varietal_composition'] . '</span>' . 
         '<span style="display: block;"><b>Type: </b>' . $row['type'] . '</span>' . 
