@@ -374,7 +374,7 @@
           </td>
 	</table>
 
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2919.5198425440135!2d-78.660863!3d42.967322!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d375861ce9c67d%3A0xf4db2dbd1f05eabe!2s8860+Main+St+%23201a%2C+Williamsville%2C+NY+14221!5e0!3m2!1sen!2sus!4v1474427205816" width="100%" height="450" frameborder="0" style="border:2px solid black; padding: 4px" allowfullscreen></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2928.9777712468317!2d-78.62730178453073!3d42.76767537916165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d375866e2b942d%3A0x6d248969f196e8e2!2sOggionni+Wines!5e0!3m2!1sen!2sus!4v1476275904992" width="100%" height="450" frameborder="0" style="border:2px solid black; padding: 4px" allowfullscreen></iframe>
     </div>
 
     <div class="col-md-6">
